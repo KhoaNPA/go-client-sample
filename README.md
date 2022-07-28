@@ -154,9 +154,9 @@ minikube-m02   Ready    <none>   15h   v1.18.3
 ```
 
 2. Create batch job in scenario 1 & 2:
-Uncomment the Function `launchJobScenario1n2(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` in main() and run below command
+- Uncomment the Function `launchJobScenario1n2(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` in main() and run below command
 
-Comment the Function `launchJobScenario3(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` in main() and run below command
+- Comment the Function `launchJobScenario3(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` in main() and run below command
 
 ```
 $ cd ./batch-job
@@ -196,10 +196,10 @@ job.batch "job3" deleted
 khoanpa@khoanpas-MacBook-P
 ```
 
-Comment out the Function `launchJobScenario1n2(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` again
+- Comment out the Function `launchJobScenario1n2(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` again
 
 3. Create the batch job in scenario 3
-Uncomment the Function `launchJobScenario3(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` and run below command
+- Uncomment the Function `launchJobScenario3(clientset, job.JobName, job.Image, job.RequestMem, job.RequestCpu)` and run below command
 ```
 Add 3rd node to cluster to simulate the scenario 3
 $ pwd 
