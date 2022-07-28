@@ -11,7 +11,11 @@ Using k8s.io/go-client to interact with Kubernetes cluster.
 % tree                         
 .
 ├── README.md
-└── batch-job
+├── batch-job
+│   ├── go.mod
+│   ├── go.sum
+│   └── main.go
+└── part-1-architecture-challenge.md
 ```
 
 ---
