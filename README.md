@@ -1,5 +1,11 @@
-# go-client-sample
-Using k8s.io/go-client to interact with Kubernetes cluster
+# Part 1: Architectural Challenge
+See answer in below:
+```
+$ cat./part-1-architecture-challenge.md
+```
+
+# Part 2: Technical Challenge: go-client-sample
+Using k8s.io/go-client to interact with Kubernetes cluster.
 
 ```
 % tree                         
